@@ -1,7 +1,7 @@
 
 
 # AutoPoco.NetCore
-AutoPoco is a highly configurable framework for the purpose of fluently building readable test data from Plain Old CLR Objects. This is a modernized (i.e. dotnet core 2.0.0) port of the excellent AutoPoco project which hasn't been maintained since 2014. Thanks to @robashton for graciously agreeing to let me pull this fossil out of the amber, and giving it a light dusting.
+AutoPoco is a highly configurable framework for the purpose of fluently building readable test data from Plain Old CLR Objects. This is a modernized (i.e. dotnet core 2.0.0) port of the excellent AutoPoco project which hasn't been maintained since 2014. Thanks to [@robashton](https://twitter.com/robashton) for graciously agreeing to let me pull this fossil out of the amber and give it a light dusting.
 
 ## What does this do?
 
