@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Version>2.0.0.0</Version>
+    <Authors>Rob Ashton, Praneeth Muskula</Authors>
+    <Description>AutoPoco updated for dotnet core.</Description>
+    <Copyright>Copyright © Rob Ashton 2010</Copyright>
+    <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0" />
+    <PackageReference Include="NUnit" Version="3.8.1" />
+    <PackageReference Include="NUnit.Console" Version="3.7.0" />
+    <PackageReference Include="NUnit.ConsoleRunner" Version="3.7.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AutoPoco.Testing\AutoPoco.Testing.csproj" />
+    <ProjectReference Include="..\AutoPoco.Tests.Unit\AutoPoco.Tests.Unit.csproj" />
+    <ProjectReference Include="..\AutoPoco\AutoPoco.csproj" />
+  </ItemGroup>
+
+</Project>

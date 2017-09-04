@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>2.0.0.0</Version>
+    <Authors>Rob Ashton, Praneeth Muskula</Authors>
+    <Company>codeofrob</Company>
+    <Product>AutoPoco</Product>
+    <Description>AutoPoco updated for dotnet core.</Description>
+    <Copyright>Copyright © Rob Ashton 2010</Copyright>
+    <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AutoPoco\AutoPoco.csproj" />
+  </ItemGroup>
+
+</Project>

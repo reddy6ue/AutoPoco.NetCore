@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoPoco", "AutoPoco\AutoPoco.csproj", "{0296FE76-FA1C-44C1-8D0E-4AAFEA7B9B86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPoco.Testing", "AutoPoco.Testing\AutoPoco.Testing.csproj", "{2B06C339-2DE8-4E2F-8295-3E18DD4B612C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPoco.Tests.Integration", "AutoPoco.Tests.Integration\AutoPoco.Tests.Integration.csproj", "{4B9C6F59-A68C-4E04-8DFF-FDCC586B00D8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2B06C339-2DE8-4E2F-8295-3E18DD4B612C} = {2B06C339-2DE8-4E2F-8295-3E18DD4B612C}
+		{0296FE76-FA1C-44C1-8D0E-4AAFEA7B9B86} = {0296FE76-FA1C-44C1-8D0E-4AAFEA7B9B86}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPoco.Tests.Unit", "AutoPoco.Tests.Unit\AutoPoco.Tests.Unit.csproj", "{3FDC7DAD-DD71-4336-98AD-E01D22F37362}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0296FE76-FA1C-44C1-8D0E-4AAFEA7B9B86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0296FE76-FA1C-44C1-8D0E-4AAFEA7B9B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0296FE76-FA1C-44C1-8D0E-4AAFEA7B9B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0296FE76-FA1C-44C1-8D0E-4AAFEA7B9B86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B06C339-2DE8-4E2F-8295-3E18DD4B612C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B06C339-2DE8-4E2F-8295-3E18DD4B612C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B06C339-2DE8-4E2F-8295-3E18DD4B612C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B06C339-2DE8-4E2F-8295-3E18DD4B612C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B9C6F59-A68C-4E04-8DFF-FDCC586B00D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B9C6F59-A68C-4E04-8DFF-FDCC586B00D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B9C6F59-A68C-4E04-8DFF-FDCC586B00D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B9C6F59-A68C-4E04-8DFF-FDCC586B00D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FDC7DAD-DD71-4336-98AD-E01D22F37362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FDC7DAD-DD71-4336-98AD-E01D22F37362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FDC7DAD-DD71-4336-98AD-E01D22F37362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FDC7DAD-DD71-4336-98AD-E01D22F37362}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48EB02DC-8C61-40BB-9586-73BF111620B2}
+	EndGlobalSection
+EndGlobal
